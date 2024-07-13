@@ -1,103 +1,45 @@
-# hy.io
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Simple web page Template</title>
-    <link rel="stylesheet" href="style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <h2>Programming Languages</h2>
 </head>
-
 <body>
-    <nav class="navbar background">
-        <div class="logo">
-            <img src=
-"https://media.geeksforgeeks.org/gfg-gg-logo.svg" 
-                 style="height: 30px;" 
-                 alt="Logo">
-        </div>
-        <ul class="nav-list">
-            <li><a href="#web">Web Technology</a></li>
-            <li><a href="#program">C Programming</a></li>
-            <li><a href="#course">Courses</a></li>
-        </ul>
-        <div class="rightnav">
-            <input type="text" 
-                   name="search" 
-                   id="search">
-            <button class="btn btn-sm">Search</button>
-        </div>
-    </nav>
-
-    <section class="firstsection">
-        <div class="box-main">
-            <div class="firstHalf">
-                <h1 class="text-big" 
-                    id="web">Web Technology
-                  </h1>
-                <p class="text-small">
-                    HTML stands for HyperText Markup Language.
-                    It is used to design web pages using a markup
-                    language. HTML is the combination of Hypertext
-                    and Markup language. Hypertext defines the
-                    link between the web pages. A markup language
-                    is used to define the text document within tag
-                    which defines the structure of web pages.
-                    HTML is a markup language that is used by the
-                    browser to manipulate text, images, and other
-                    content to display it in the required format.
-                </p>
-
-
-            </div>
-        </div>
-    </section>
-
-    <section class="secondsection">
-        <div class="box-main">
-            <div class="firstHalf">
-                <h1 class="text-big" 
-                    id="program">
-                    C Programming
-                </h1>
-                <p class="text-small">
-                    C is a procedural programming language. It
-                    was initially developed by Dennis Ritchie
-                    as a system programming language to write
-                    operating system. The main features of C
-                    language include low-level access to memory,
-                    simple set of keywords, and clean style,
-                    these features make C language suitable for
-                    system programming like operating system or
-                    compiler development.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="paras">
-            <h1 class="sectionTag text-big">Java</h1>
-            <p class="sectionSubTag text-small">
-                Java has been one of the most popular
-                programming language for many years.
-                Java is Object Oriented. However it is
-                not considered as pure object oriented
-                as it provides support for primitive
-                data types (like int, char, etc) The
-                Java codes are first compiled into byte
-                code (machine independent code). Then
-                the byte code is run on Java Virtual
-                Machine (JVM) regardless of the
-                underlying architecture.
-            </p>
-        </div>
-    </section>
-
-    <footer class="background">
-        <p class="text-footer">
-            Copyright ©-All rights are reserved
-        </p>
-    </footer>
+ <main>
+ <section>
+ <div>
+ <div>
+ <h1>Web Technology</h1>
+ <p>
+ HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within tags which define the structure of web pages. HTML is a markup language that is used by the browser to manipulate text, images, and other content to display it in the required format.
+ </p>
+ </div>
+ </div>
+ </section>
+ <section>
+ <div>
+ <div>
+ <h1>C Programming</h1>
+ <p>
+ C is a procedural programming language. It was initially developed by Dennis Ritchie as a system programming language to write operating systems. The main features of C language include low-level access to memory, a simple set of keywords, and a clean style. These features make C language suitable for system programming like operating systems or compiler development.
+ </p>
+ </div>
+ </div>
+ </section>
+ <section>
+ <div>
+ <h1>Java</h1>
+ <p>
+ Java has been one of the most popular programming languages for many years. Java is Object Oriented. However, it is not considered a pure object-oriented language as it provides support for primitive data types (like int, char, etc). The Java code is first compiled into bytecode (machine-independent code). Then the bytecode is run on the Java Virtual Machine (JVM) regardless of the underlying architecture.
+ </p>
+ </div>
+ </section>
+ </main>
+ <footer>
+ <p>
+ Copyright &copy; 2024 - All rights reserved
+ </p>
+ </footer>
 </body>
-
 </html>
